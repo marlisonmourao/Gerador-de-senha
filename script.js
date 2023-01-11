@@ -1,6 +1,7 @@
 const inputEl = document.querySelector('#password')
 const passswordLengthEl = document.querySelector('#password-length') 
-const copyButtonEl = document.querySelector('#copy')
+const copyButtonEl = document.querySelector('#copy-1')
+const copyButtonEl2 = document.querySelector('#copy-2')
 
 let passwordLength = 16
 
@@ -30,3 +31,4 @@ function copy() {
 }
 
 copyButtonEl.addEventListener('click', copy)
+copyButtonEl2.addEventListener('click', copy)
